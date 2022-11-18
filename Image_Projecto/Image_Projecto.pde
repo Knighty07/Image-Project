@@ -17,6 +17,13 @@ void setup () {
   int picHeight  = 346;
 
   //Population 
+
+  backgroundImageX = appWidth*0;
+  backgroundImageY = appHeight*0;
+  backgroundImageWidth = appWidth-1;
+  backgroundImageHeight = appHeight-1;
+
+
   pic = loadImage("Capture.JPG");
   pic2 = loadImage("Capture.JPG");
 
@@ -32,17 +39,16 @@ void setup () {
 
   rect(topHalfX, topHalfY, topHalfWidth, topHalfHeight);
   rect(bottomHalfX, bottomHalfY, bottomHalfWidth, bottomHalfHeight);
-  
- img= loadImage("Capture.JPG");
-  
+
+  img= loadImage("Capture.JPG");
+
   //Creating two rectangles to add shapes in
 };
 void draw () {
   //image( pic, topHalfX, topHalfY, picWidthAdjusted2, picHeightAdjusted2 );
   image ( pic2, bottomHalfX, bottomHalfY, bottomHalfWidth, bottomHalfHeight);
-  
+
   imageMode(CORNER);
   image(img, 40, 40, 360, 160);
-  
 };
 //ok
