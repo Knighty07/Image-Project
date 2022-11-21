@@ -8,8 +8,7 @@ float picWidthAdjusted1=0.0, picHeightAdjusted1=0.0;
 String title = "Out of aspect ratio ", footer = "In aspect ratio";
 float titleX, titleY, titleWidth, titleHeight;
 float footerX, footerY, footerWidth, footerHeight;
-color blue=#3390C1, green=#11B98E, hydro=#0051D8, red=#C93A16, resetDefaultInk=#FFFFFF;//Night Mode Friendly
-
+color blue=#3390C1, green=#11B98E, hydro=#0051D8, red=#C93A16, resetDefaultInk=#FFFFFF;
 PImage img;
 void setup () {
   appWidth= width;
